@@ -631,3 +631,52 @@ section {
     width: 100%;
 
 }
+
+/* video styles */
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.video-title {
+    width: 28rem;
+    line-height: 3.75rem;
+    padding-bottom: 1.5rem;
+}
+
+.video-describe {
+    width: 33.25rem;
+    color: var(--ash);
+    line-height: 1.625rem;
+}
+
+.video-list {
+    width: 32.375rem;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 1.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+    margin: 2rem auto;
+}
+
+
+.video-embed {
+    width: 38.125rem;
+    height: 26.5rem;
+    border-radius: 1rem;
+    padding: 5%;
+    
+}
+
+.video-embed video{
+    width:610px;
+    height:320px;
+    border-radius: 1rem;
+}
