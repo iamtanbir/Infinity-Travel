@@ -120,3 +120,98 @@ nav>ul>li>a {
 .home {
     color: var(--theme);
 }
+
+* main styles */
+body{
+    width: 100%;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 3rem 0;
+    margin: 0 auto;
+    width: 73.125rem;
+}
+
+/* banner styles */
+.banner-container {
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 73.125rem;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 16px;
+}
+
+.gradient{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    z-index: -1;
+    border-radius: 16px;
+
+}
+
+.banner-container>img{
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    display: block;
+    position: absolute;
+    border-radius: 16px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 1.5rem;
+}
+
+.banner-describe {
+    color: #FFF;
+    width: 42.25rem;
+    text-align: center;
+}
+
+.banner-form {
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-form * {
+    height: 3.25rem;
+    width: 10.875rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: var(--input);
+    padding: .5rem;
+}
+
+.banner-form>button>* {
+    color: #FFF;
+    font-size: 1rem;
+    display: inline;
+    background-color: var(--theme);
+}
+
+.banner-form>button {
+    color: #FFF;
+    font-size: 1rem;
+    background-color: var(--theme);
+}
