@@ -345,8 +345,6 @@ section {
     transition: all .30s ease-in-out;
 }
 
-
-
 .destination-img>img{
     z-index: -2;
     object-fit:fill;
