@@ -3,3 +3,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* root colors */
+:root {
+    --theme: #FF5400;
+    --black: #131318;
+    --light: rgba(19, 19, 24, 0.70);
+    --grey: #424247;
+    --ash: #5A5A5D;
+    --input: rgba(19, 19, 24, 0.50);
+}
+
+/* universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.origin{
+    width: 100%;
+}
+
+.all-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--black);
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+    transition: all .15s;
+}
+
+a:hover{
+    color: var(--theme);
+}
+
+button{
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+button:hover{
+    background-color: #FFF;
+    color: var(--theme);
+    border: .5px solid var(--theme);
+}
+
+.unique{
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.unique:hover, .unique:hover i, .newsletter .unique:hover{
+    background-color: #FFF;
+    color: var(--theme);
+    
+}
+
+/* background image styles */
+.bgs {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    border-radius: 1rem;
+}
+
+/* header styles */
+header {
+    width: 73.125rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* website title styles */
+.website-title h1 {
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+
+.website-title h1 span {
+    color: var(--theme);
+    -webkit-text-stroke: 0.025rem;
+
+}
+
+/* nav styles */
+.nav2{
+    display: none;
+}
+
+nav {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    gap: 2.75rem;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    color: var(--grey);
+}
+
+.home {
+    color: var(--theme);
+}
