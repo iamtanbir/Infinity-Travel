@@ -566,3 +566,68 @@ section {
     font-size: 1.25rem;
     font-weight: 800;
 }
+
+/* car styles */
+.car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.car-describe {
+    width: 40.1875rem;
+    color: var(--light);
+    line-height: 1.625rem;
+    margin: 1.5rem auto 3rem;
+}
+.car .card{
+    border-radius: 1rem;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 3rem 1.5rem;
+}
+
+.car-name{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.car-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.car-rate{
+    color: var(--black);
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.car-rate span{
+    color: var(--theme);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.car-image{
+    width: 21rem;
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .30s ease-in-out;
+}
+
+.car-image:hover{
+    transform: scale(1.25);
+}
+
+.car-image img{
+    width: 100%;
+
+}
