@@ -215,3 +215,77 @@ section {
     font-size: 1rem;
     background-color: var(--theme);
 }
+
+/* popular styles */
+.popular {
+    display: flex;
+    width: 73.125rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 3.3rem;
+}
+
+.popular-content {
+    width: 36.0625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height: 1.625rem;
+}
+
+.popular-content .popular-list {
+    display: flex;
+    flex-direction: column;
+    width: 32.8125rem;
+    gap: 1rem;
+    padding-left: 2rem;
+
+}
+
+.popular-bg {
+    width: 33.75rem;
+    height: 34.375rem;
+    position: relative;
+}
+
+.pop-gradient{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.00) 100%);
+    z-index: -1;
+    border-radius: 16px;
+
+}
+
+.popular-bg>img{
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    display: block;
+    position: absolute;
+}
+
+.popular-describe {
+    width: 36.0625rem;
+    color: var(--light);
+}
+
+.popular-list li {
+    color: var(--light);
+}
+
+.popular-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 0.85rem 2.15rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: .5px solid var(--theme);
+}
