@@ -788,3 +788,60 @@ input[type="email"] {
     font-size: 2rem;
     font-weight: 800;
 }
+
+/* footer styles */
+
+footer {
+    width: 73rem;
+    height: 31.375rem;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-title h1 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.footer-title h1 span {
+    color: var(--theme);
+    -webkit-text-stroke: 0.025rem;
+}
+
+.footer-describe {
+    width: 48.0625rem;
+    color: var(--ash);
+    line-height: 1.625rem;
+    margin: 1rem auto 2rem;
+}
+
+.social {
+    width: 10.89513rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    font-size: 1.5rem;
+    gap: 3rem;
+    text-align: center;
+}
+
+footer hr {
+    width: 54.5rem;
+    height: 0.0625rem;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 3.12rem auto;
+}
+
+.footer-rights {
+    color: var(--black);
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 300;
+}
